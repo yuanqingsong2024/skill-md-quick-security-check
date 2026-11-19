@@ -1,6 +1,6 @@
 ---
 name: skill-md-quick-security-check
-description: Runs a fast five-pattern security check on a third-party SKILL.md before you install it: remote scripts piped into a shell, destructive commands, wildcard tool approvals, hidden Unicode, and credential access or data exfiltration. Gives a short safe-to-read, fix-first, or do-not-install result with the lines that triggered it. Use when you want a quick first pass on a skill you downloaded; for a full audit with a semantic purpose review and a written report, use the SKILL.md Security Auditor instead.
+description: "Runs a fast five-pattern security check on a third-party SKILL.md before you install it: remote scripts piped into a shell, destructive commands, wildcard tool approvals, hidden Unicode, and credential access or data exfiltration. Gives a short safe-to-read, fix-first, or do-not-install result with the lines that triggered it. Use when you want a quick first pass on a skill you downloaded; for a full audit with a semantic purpose review and a written report, use the SKILL.md Security Auditor instead."
 license: MIT
 compatibility: Works with any agent that loads SKILL.md files, including Claude Code, Codex, Cursor, Gemini CLI, and Copilot. Needs read access to the skill being checked. No network access required.
 metadata:
